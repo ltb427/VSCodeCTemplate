@@ -122,6 +122,33 @@ cmake-test/fast:
 	$(MAKE) -f CMakeFiles\cmake-test.dir\build.make CMakeFiles/cmake-test.dir/build
 .PHONY : cmake-test/fast
 
+Src/Cat.obj: Src/Cat.cpp.obj
+
+.PHONY : Src/Cat.obj
+
+# target to build an object file
+Src/Cat.cpp.obj:
+	$(MAKE) -f CMakeFiles\cmake-test.dir\build.make CMakeFiles/cmake-test.dir/Src/Cat.cpp.obj
+.PHONY : Src/Cat.cpp.obj
+
+Src/Cat.i: Src/Cat.cpp.i
+
+.PHONY : Src/Cat.i
+
+# target to preprocess a source file
+Src/Cat.cpp.i:
+	$(MAKE) -f CMakeFiles\cmake-test.dir\build.make CMakeFiles/cmake-test.dir/Src/Cat.cpp.i
+.PHONY : Src/Cat.cpp.i
+
+Src/Cat.s: Src/Cat.cpp.s
+
+.PHONY : Src/Cat.s
+
+# target to generate assembly for a file
+Src/Cat.cpp.s:
+	$(MAKE) -f CMakeFiles\cmake-test.dir\build.make CMakeFiles/cmake-test.dir/Src/Cat.cpp.s
+.PHONY : Src/Cat.cpp.s
+
 Src/main.obj: Src/main.cpp.obj
 
 .PHONY : Src/main.obj
@@ -158,6 +185,9 @@ help:
 	@echo ... cmake-test
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Src/Cat.obj
+	@echo ... Src/Cat.i
+	@echo ... Src/Cat.s
 	@echo ... Src/main.obj
 	@echo ... Src/main.i
 	@echo ... Src/main.s

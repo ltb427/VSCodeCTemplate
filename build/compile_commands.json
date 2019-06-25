@@ -1,6 +1,11 @@
 [
 {
   "directory": "E:/VSCodeCTemplate/build",
+  "command": "C:\\mingw64\\bin\\g++.exe   @CMakeFiles/cmake-test.dir/includes_CXX.rsp -g   -std=gnu++17 -o CMakeFiles\\cmake-test.dir\\Src\\Cat.cpp.obj -c E:\\VSCodeCTemplate\\Src\\Cat.cpp",
+  "file": "E:/VSCodeCTemplate/Src/Cat.cpp"
+},
+{
+  "directory": "E:/VSCodeCTemplate/build",
   "command": "C:\\mingw64\\bin\\g++.exe   @CMakeFiles/cmake-test.dir/includes_CXX.rsp -g   -std=gnu++17 -o CMakeFiles\\cmake-test.dir\\Src\\main.cpp.obj -c E:\\VSCodeCTemplate\\Src\\main.cpp",
   "file": "E:/VSCodeCTemplate/Src/main.cpp"
 }

@@ -1,8 +1,11 @@
 #include <iostream>
+#include "Cat.hpp"
 
 int main()
 {
-    std::cout<<"HelloWorld"<<std::endl;
+    Cat* cat = new Cat();
+    cat->CatSay();
+    delete cat;
     system("pause");
     return 0;
 }

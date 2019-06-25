@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "E:/VSCodeCTemplate/Src/Cat.cpp" "E:/VSCodeCTemplate/build/CMakeFiles/cmake-test.dir/Src/Cat.cpp.obj"
   "E:/VSCodeCTemplate/Src/main.cpp" "E:/VSCodeCTemplate/build/CMakeFiles/cmake-test.dir/Src/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
